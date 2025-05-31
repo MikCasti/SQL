@@ -1,0 +1,12 @@
+SELECT TOP (1000) [firstName]
+      ,[lastName]
+      ,[company]
+      ,[address]
+      ,[city]
+      ,[country]
+      ,[postalCode]
+      ,[phone]
+      ,[fax]
+      ,[email]
+  FROM [Chinook].[dbo].[vw_customer]
+
